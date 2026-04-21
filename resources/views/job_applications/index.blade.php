@@ -6,6 +6,7 @@
     </x-slot>
 
     <x-toast-notification />
+
     <div class="py-12">
         <div class="p-4 mx-auto space-y-4 bg-black rounded-lg shadow-lg sm:p-6 max-w-7xl">
             @forelse ($jobApplications as $jobApplication)
