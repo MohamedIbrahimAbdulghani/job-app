@@ -61,10 +61,10 @@ public function processing(ApplyJobRequest $request, $id) {
                 'name' => Auth::user()->name,
                 'email' => Auth::user()->email,
             ]),
-            'education' => $extractInfo['education'],
+            'education' => json_encode($extractInfo['education']),
             'summary' => $extractInfo['summary'],
-            'skills' => $extractInfo['skills'],
-            'experience' => $extractInfo['experience'],
+            'skills' => json_encode($extractInfo['skills']),
+            'experience' => json_encode($extractInfo['experience']),
             'user_id' => Auth::user()->id,
         ]);
     } else {
