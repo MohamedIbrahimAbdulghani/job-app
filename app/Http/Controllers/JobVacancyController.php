@@ -46,6 +46,9 @@ public function processing(ApplyJobRequest $request, $id) {
 
         // Store in laravel cloud
         $path = $file->storeAs('resumes', $fileName, 'cloud');
+        if(!$path) {
+            dd('Upload failed! Check cloud config.');
+        }
         $fullPathFileUrl = config('filesystems.disks.cloud.url') . '/' . $path;
 
         $extractInfo = $this->ResumeAnalysisService->extractResumeInformation($fullPathFileUrl);
