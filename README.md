@@ -1,59 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💼 Job Matcher (شغلني) - AI-Powered Job Matching Platform
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-v10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-v8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📖 نبذة عن المشروع (Project Overview)
+**Job Matcher (شغلني)** هي منصة توظيف متكاملة ومبتكرة تعتمد على الـ Dark Mode في تصميمها لتوفير تجربة مستخدم مريحة وعصرية. تهدف المنصة إلى تسهيل عملية البحث عن الوظائف للباحثين عن عمل (Candidates) وإدارة المتقدمين والوظائف لأصحاب الشركات (Employers)، مع دمج تقنيات الذكاء الاصطناعي لتحليل ومطابقة الطلبات وتقييم السير الذاتية وإعطاء تقييم ذكي (AI Scoring & Feedback).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🎨 النظام التصميمي والهوية البصرية (Design System)
 
-## Learning Laravel
+تم بناء واجهات التطبيق بناءً على لوحة ألوان داكنة متباينة (Dark Aesthetic Theme) تعطي طابعاً تكنولوجياً واحترافياً.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 🔴 لوحة الألوان (Color Palette)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| اللون | كود الـ Hex | الاستخدام في الواجهات |
+| :---: | :---: | :--- |
+| **الخلفية الأساسية الداكنة** | `#0A0E23` | الخلفية العميقة للصفحات والقوائم لراحة العين وتأثير الوضع الداكن. |
+| **اللون البرتقالي الحيوي** | `#F97316` | الأزرار الرئيسية (CTA)، أزرار التقديم، والتفاعلات المهمة (Action Color). |
+| **اللون البنفسجي المضيء** | `#6D28D9` | لون النصوص التوضيحية، الأوسمة (Badges)، والتأثيرات الجمالية. |
+| **اللون الأزرق اللامع** | `#4F46E5` | الروابط، العناصر النشطة في القوائم، والحدود الجانبية لتركيز الانتباه. |
+| **الأحمر التحذيري/التقييم** | `#EF4444` | إشعارات الرفض، الدرجات المنخفضة في الـ AI Score، والأزرار الملغاة. |
+| **الأبيض النقي** | `#FFFFFF` | العناوين الرئيسية والنصوص الأساسية لضمان أعلى مستوى من التباين والوضوح. |
 
-## Laravel Sponsors
+### 🔤 الخطوط المستخدمة (Typography)
+* **الخط الأساسي للنظام:** `Inter` بالتكامل مع `Cairo` أو `Tajawal` (عبر Google Fonts) لضمان انسيابية تامة وسهولة قراءة النصوص البرمجية والعربية داخل الواجهات الداكنة بدقة فائقة.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 📸 لقطات من داخل المشروع (Screenshots)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+> 💡 **ملاحظة:** لظهور هذه الصور بشكل صحيح على حسابك، قم بإنشاء مجلد باسم `screenshots` في المجلد الرئيسي للمشروع على جهازك، وضع الصور بداخله بنفس الأسماء المذكورة أدناه قبل عمل `git push`.
 
-## Contributing
+### 1️⃣ الصفحة الرئيسية (Landing Page)
+*تتميز بواجهة ترحيبية جذابة مع شريط بحث ذكي للوصول السريع للوظائف.*
+![Landing Page](screenshots/landing_page.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 2️⃣ لوحة التحكم الشاملة (Dashboard)
+*توضح إحصائيات الوظائف، الطلبات الحالية، ومتابعة النشاط بشكل منظم.*
+![Dashboard](screenshots/dashboard.png)
 
-## Code of Conduct
+### 3️⃣ تفاصيل الوظيفة (Job Details)
+*عرض كافة تفاصيل الوظيفة، الشروط، الراتب، مع زر التقديم السريع المتوافق مع لوحة الألوان.*
+![Job Details](screenshots/job_details.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 4️⃣ تقييم الذكاء الاصطناعي للطلبات (AI Applications Scoring)
+*توضيح نتيجة تحليل الذكاء الاصطناعي للسير الذاتية وإعطاء تقييم نسبي مئوي للمتقدمين لسهولة الفرز.*
+![AI Scoring](screenshots/ai_scoring.png)
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🚀 الميزات الأساسية (Key Features)
 
-## License
+* **نظام الصلاحيات والأدوار (Multi-Auth Roles):** فصل كامل بين حساب الباحث عن عمل (لوحة لرفع الـ CV والتقدم) وحساب الشركة (لوحة لإضافة الوظائف وفحص المتقدمين).
+* **الفحص الذكي بالذكاء الاصطناعي (AI Application Scoring):** دمج الـ OpenAI API لتقييم مدى ملائمة السيرة الذاتية للمتقدم مع متطلبات الوظيفة وإعطاء Feedback فوري.
+* **إدارة الوظائف المتقدمة (Job Management):** لوحة تحكم سلسة لعمل (CRUD Operations) على الوظائف، وتصنيفها حسب نوع الدوام (عن بعد، دوام كامل، جزئي).
+* **نظام إشعارات وحالات الطلب:** تحديث فوري لحالة الطلب (قيد المراجعة، مقبول، مرفوض) لتصل للمستخدم مباشرة.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+
+* **الـ Backend:** إطار عمل Laravel 10 (PHP)
+* **قاعدة البيانات:** MySQL
+* **الـ Frontend:** Blade Templates مصممة بالكامل باستخدام Tailwind CSS للتحكم الدقيق بالـ Dark Theme.
+* **الذكاء الاصطناعي:** OpenAI API Integration
+
+---
+
+## 💻 طريقة تشغيل المشروع محلياً (Installation Guide)
+
+إذا كنت ترغب في تشغيل المشروع على جهازك الشخصي، يرجى اتباع الخطوات التالية:
+
+1. **تحميل المستودع (Clone):**
+   ```bash
+   git clone [https://github.com/MohamedIbrahimAbdulghani/job-app.git](https://github.com/MohamedIbrahimAbdulghani/job-app.git)
+   cd job-app
