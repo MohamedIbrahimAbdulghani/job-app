@@ -76,3 +76,35 @@
    ```bash
    git clone [https://github.com/MohamedIbrahimAbdulghani/job-app.git](https://github.com/MohamedIbrahimAbdulghani/job-app.git)
    cd job-app
+   ```
+
+
+2. **تثبيت حزم ال (Composer) Backend:**
+   ```bash
+   composer install
+   ```
+
+
+3. **تثبيت حزم ال (NPM) Frontend:**
+   ```bash
+   npm install
+   ```
+
+
+4. **إعداد ملف البيئة وقاعدة البيانات: إنشاء ملف ال .env**
+   ```bash
+   cp .env.example .env
+   ```
+
+
+5. **تجهيز البيانات**
+   ```bash
+   php artisan migrate --seed
+   ```
+
+
+6. **تشغيل المشروع**
+   ```bash
+   php artisan serve
+   npm run dev
+   ```
